@@ -1,1 +1,43 @@
-git 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1440px;
+    background-color: red;
+}
+a{
+    text-decoration:none;
+    color: #2D2D2D;
+}
+.header{
+    height: 42px;
+}
+.Menu ul li{
+    display: inline-block;
+    width: 150px;
+    margin-right: 50px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+.Menu{
+display: inline-block;
+}
+.container .Search{
+    width: 150px;
+    height: 24px;
+    float: right;
+    background: blue;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.container .Search i{
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
